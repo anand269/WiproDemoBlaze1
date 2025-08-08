@@ -11,6 +11,7 @@ public class PracticePageLinkDemo extends BaseClass{
 	@Test 
 	public void practicePage() throws InterruptedException
 	{
+		//invoke browser
 		invokeBrowser("chrome");
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
