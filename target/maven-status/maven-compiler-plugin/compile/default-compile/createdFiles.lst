@@ -1,0 +1,6 @@
+pages\CheckoutPage.class
+utils\ExcelReadUtils.class
+utils\ConfigReader.class
+base\BaseClass.class
+pages\LoginPage.class
+pages\HomePage.class
