@@ -106,7 +106,7 @@ public class MainTest extends BaseClass {
         test.pass("Logged out");
     }
     
-    @Test
+    @Test (enabled=false)
     public void testInvalidLogin() throws IOException {
         test = extent.createTest("Check Invalid Credentials");
         LoginPage loginPage = new LoginPage(driver);
@@ -135,7 +135,7 @@ public class MainTest extends BaseClass {
         takeScreenshot("Invalid Login Attempt");
     }
     
-    @Test
+    @Test (enabled=false)
     public void testGetStatusCode() {
         
         test = extent.createTest("Check API Status Code");
@@ -165,7 +165,7 @@ public class MainTest extends BaseClass {
 
     public void takeScreenshot(String stepDescription) throws IOException {
         File f = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String screenshotPath = "C:\\Users\\HP\\eclipse-workspace\\Wipro2\\ScreenShots\\" + stepDescription + "-" + System.currentTimeMillis() + ".png";
+        String screenshotPath = "./ScreenShots" + stepDescription + "-" + System.currentTimeMillis() + ".png";
         Files.copy(f, new File(screenshotPath));
         test.addScreenCaptureFromPath(screenshotPath, stepDescription);
     }

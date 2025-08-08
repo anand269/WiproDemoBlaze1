@@ -1,4 +1,0 @@
-# Created at 2025-08-08T12:53:52.303
-Boot Manifest-JAR contains absolute paths in classpath 'D:\Users\Hp\eclipse-workspace\WiproDemoBlaze\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

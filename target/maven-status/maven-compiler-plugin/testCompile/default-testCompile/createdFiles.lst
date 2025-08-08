@@ -1,4 +1,7 @@
 Test\ApiTesting.class
-Runner\TestRunner.class
+Test\GoogleSearchTest.class
 stepDefinitions\LoginSteps.class
 Test\MainTest.class
+Runner\TestRunner.class
+Test\BaseClass.class
+Test\PracticePageLinkDemo.class
