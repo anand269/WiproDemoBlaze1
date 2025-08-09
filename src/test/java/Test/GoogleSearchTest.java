@@ -19,7 +19,7 @@ public class GoogleSearchTest extends BaseClass{
 	@BeforeTest
 	public void setup()
 	{		
-		//invoking the browser
+		//logic to invoke the specfic browser
 		invokeBrowser("chrome");
 		if(extent==null)
 		{
