@@ -19,6 +19,7 @@ public class GoogleSearchTest extends BaseClass{
 	@BeforeTest
 	public void setup()
 	{		
+		//invoking the browser
 		invokeBrowser("chrome");
 		if(extent==null)
 		{
